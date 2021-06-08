@@ -16,6 +16,18 @@ h2,h3,button {
   font-family: "Big Shoulders Display", sans-serif;
 }
 
+h2 {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.8;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+}
+
 
 /* Container styling */
 .flex-container {
@@ -31,6 +43,7 @@ h2,h3,button {
   margin-bottom: 20px;
 }
 
+    /* First Container */
 .flex-item:first-child {
   background: hsl(31, 77%, 52%);
   /* Bright orange */
@@ -38,12 +51,14 @@ h2,h3,button {
   border-radius: 3% 3% 0 0;
 }
 
+    /* Second Container */
 .scdC {
   background: hsl(184, 100%, 22%);
   /* Dark cyan */
   color: #fff;
 }
 
+    /* Third Container */
 .trdC {
   background: hsl(179, 100%, 13%);
   /* Very dark cyan */
@@ -51,17 +66,7 @@ h2,h3,button {
   border-radius: 0 0 3% 3%;
 }
 
-h2 {
-  text-transform: uppercase;
-  font-size: 1.8rem;
-  margin-bottom: 20px;
-}
 
-p {
-  line-height: 1.8;
-  color: hsla(0, 0%, 100%, 0.75);
-  font-family: "Lexend Deca", sans-serif;
-}
 
 /* button styling */
 button {
