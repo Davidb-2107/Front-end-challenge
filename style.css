@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styling */
+body, button {
+  font-size: 15px;
+  background-color: hsl(0, 0%, 95%);
+}
+
+
+h2,h3,button {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+
+/* Container styling */
+.flex-container {
+  padding: 30px;
+}
+
+.flex-item {
+  padding: 30px;
+  max-width: 300px;
+}
+
+.flex-item img {
+  margin-bottom: 20px;
+}
+
+.flex-item:first-child {
+  background: hsl(31, 77%, 52%);
+  /* Bright orange */
+  color: #fff;
+  border-radius: 3% 3% 0 0;
+}
+
+.scdC {
+  background: hsl(184, 100%, 22%);
+  /* Dark cyan */
+  color: #fff;
+}
+
+.trdC {
+  background: hsl(179, 100%, 13%);
+  /* Very dark cyan */
+  color: #fff;
+  border-radius: 0 0 3% 3%;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.8;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+/* button styling */
+button {
+  background: #fff;
+  border-radius: 25px;
+  padding: 10px 20px;
+  border: 1px solid white;
+  margin: 20px 0;
+}
+
+.fstC button {
+  color: hsl(31, 77%, 52%);
+  /* Bright orange */
+}
+
+.scdC button {
+  color: hsl(184, 100%, 22%);
+  /* Dark cyan */
+}
+
+.trdC button {
+  color: hsl(179, 100%, 13%);
+  /* Very dark cyan */
+}
+
+.btn:hover {
+  color: white;
+  background: transparent;
+}
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Media Queries */
+@media (min-width: 1024px) {
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .flex-item {
+    padding: 40px;
+    max-width: 300px;
+  }
+
+  .flex-item:first-child {
+    border-radius: 5% 0 0 5%;
+  }
+
+  .trdC {
+    border-radius: 0 5% 5% 0;
+  }
+
+  button {
+    margin-top: 50px;
+  }
+}
